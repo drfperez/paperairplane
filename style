@@ -1,0 +1,34 @@
+h1 { color: red; }
+p { color: grey; }
+strong { color: blue; }
+em { color: green; }
+body
+{
+font: 1em Verdana, Geneva, sans-serif;
+padding: 0;
+margin: 5px;
+color: Geneva;
+background-color: WhiteSmoke ;
+}     
+#app
+{
+margin: 4px;
+background-color: #bbc;
+}
+#app>header
+{
+padding: 0 0.5em;
+font-size: 1.5em;
+color: WhiteSmoke;
+background-color: #006;
+}
+#app>footer
+{
+padding: 0.25em;
+color: WhiteSmoke;
+background-color: #006;
+}
+#main
+{
+margin: 1em;
+}
