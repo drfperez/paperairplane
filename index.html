@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="description" content="Paper airplane webapp at Pompeu Fabra High School">
+
+<meta name="application-name" content="PaperPlaneApp">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript, aeronautics, video tracking, education">
+<meta name="author" content="Dr. Francisco Perez">
+
+<title>Paper airplane website HTML5 CSS3 JS</title>
+<script type="text/javascript" src="./javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="./style.css" media="screen">
+</head>
+
+<body>
+<div id="app">
+<header>My first App</header>
+<h1>Condor paper airplane</h1>
+<p contenteditable="true">This is a content editable paragraph <strong>bold style</strong> 
+and <em>italics style</em></p>
+<ul>
+  <li>Video 1</li>
+<video width="400" height="300" controls="" poster="poster1.png">
+  <source src="airplanemodel1.mp4" type="video/mp4">
+  <source src="airplanemodel1.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+  <li>Video 2</li>
+  <li>Video 3</li>
+ <p>
+        Distance (m):
+        <input type="text" id="distance" value="5.2">
+    </p>
+    <p>
+        Time (s):
+        <input type="text" id="time" value="4.3">
+    </p>
+    <p>
+        Speed (m/s):
+        <input type="text" id="speed" value="" readonly="true">
+    </p>
+      <input type="button" value="Speed (m/s):" onclick="speed()">
+
+
+</ul>
+<footer>By: Francesc Perez</footer>
+</div>
+  </body></html>
