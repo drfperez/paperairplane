@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta charset="UTF-8">
 <meta name="description" content="Paper airplane webapp at Pompeu Fabra High School">
 <meta name="application-name" content="PaperPlaneApp">
@@ -19,15 +20,21 @@
 and <em>italics style</em></p>
 <ul>
   <li>Video 1</li>
-<video width="400" height="300" controls="" poster="http://www.tecnologies.net/poster1.png">
-  <source src="http://www.tecnologies.net/airplanemodel1.mp4" type="video/mp4">
-  <source src="http://www.tecnologies.net/airplanemodel1.ogg" type="video/ogg">
+<video width="400" height="300" controls="" poster="poster1.png">
+  <source src="airplanemodel1.mp4" type="video/mp4">
+  <source src="airplanemodel1.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>
-
-  <li>Video 2</li>
-  <li>Video 3</li>
- <p>
+ 
+ <li>Input types</li>
+<p>Search in this page: <input type="search" name="search Airplanes" value="Condor"></p>
+<p>Date and time: <input type="datetime" name="DateandTime"></p>
+<p><input type="time" name="hora"></p>
+<p>Color selector: <input type="color" name="Color"></p>
+<p>Range selector: <input type="range" name="rango" min="0" max="50"></p>
+  <li>Maths and statistics</li>
+ <p> <a href="http://www.graphpad.com/quickcalcs/">Graphpad quickcalcs</a>
+<fieldset>
         Distance (m):
         <input type="text" id="distance" value="5.2">
     </p>
@@ -41,7 +48,7 @@ and <em>italics style</em></p>
     </p>
       <input type="button" value="Speed (m/s):" onclick="speed()">
 
-
+</fieldset>
 </ul>
 <footer>By: Francesc Perez</footer>
 </div>
