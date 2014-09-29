@@ -2,6 +2,11 @@ h1 { color: red; }
 p { color: grey; }
 strong { color: blue; }
 em { color: green; }
+
+video {
+max-width: 100%;
+height: auto;
+}
 body
 {
 font: 1em Verdana, Geneva, sans-serif;
