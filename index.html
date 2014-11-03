@@ -5,51 +5,74 @@
 <meta name="description" content="Paper airplane webapp at Pompeu Fabra High School">
 <meta name="application-name" content="PaperPlaneApp">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript, aeronautics, video tracking, education">
-<meta name="author" content="Dr. Francisco Perez">
-
-<title>Paper airplane website HTML5 CSS3 JS</title>
-<script type="text/javascript" src="./javascript.js"></script>
+<meta name="author" content="Francesc Perez">
+<title>Paper airplane project</title>
+<script type="text/javascript" src="javascript.js"></script>
 <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
 </head>
-
 <body>
 <div id="app">
-<header>My first App</header>
-<h1>Condor paper airplane</h1>
-<p contenteditable="true">This is a content editable paragraph <strong>bold style</strong> 
-and <em>italics style</em></p>
+<header>Francesc's Paper Airplanes</header>
+<h1>Comparing paper airplanes</h1>
+<p contenteditable="true">The objective of this project is that our students explain how to <em> draw their own conclusions</em> from video data using different programming languages to show if there are statistical significant differences in <strong>different models of paper airplanes</strong> 
+</p>
+ <nav>
+  <a href="./html5.html/">HTML5</a> |
+  <a href="./css.html/">CSS</a> |
+  <a href="./javascript.html/">JavaScript</a> |
+  <a href="./videos.html/">Videos</a> |
+  <a href="./statistics.html/">Statistics</a>
+</nav> 
+<p></p>
 <ul>
-  <li>Video 1</li>
+<li>You will explain in different pages of the above menu all the codes (HTML5, CSS and Javascript),your will add your 6 videos as well as your statistical analysis (mean, standard deviation and Student's t test) </li>
+<p></p>
+Video example of World record airplane with an initial image or poster made using GIMP
 <video width="300" height="200" controls="" poster="http://www.tecnologies.net/poster1.png">
   <source src="http://www.tecnologies.net/airplanemodel1.mp4" type="video/mp4">
-  <source src="http://www.tecnologies.net(airplanemodel1.ogg" type="video/ogg">
+  <source src="http://www.tecnologies.net/airplanemodel1.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>
- 
- <li>Input types</li>
-<p>Search in this page: <input type="search" name="search Airplanes" value="Condor"></p>
-<p>Date and time: <input type="datetime" name="DateandTime"></p>
-<p><input type="time" name="hora"></p>
-<p>Color selector: <input type="color" name="Color"></p>
-<p>Range selector: <input type="range" name="rango" min="0" max="50"></p>
-  <li>Maths and statistics</li>
- <p> <a href="http://www.graphpad.com/quickcalcs/">Graphpad quickcalcs</a>
+ <li>Remember that you need a GITHUB free account to upload all the codes and a PHONEGAP free account to transform online these codes into an App by using http://build.phonegap.com
+ <li>Customize your web: add links, like in this example: <a href="http://www.graphpad.com/quickcalcs/">Graphpad quickcalcs</a>
+<li>In the Statistics menu you need not only to explain mean, standard deviation and Student's t test, but to add the formulas of mean, standard deviation and Student's t test using Javascript. In the example below you have a starting example of a mean.
+<li>Don't copy the structure of this template. Originality is very important.
+<li>Don't forget to add your <strong> own ideas</strong> to your app!</ul><p></p>
 <fieldset>
-        Distance (m):
-        <input type="text" id="distance" value="5.2">
+        Distance 1 (m):
+        <input type="text" id="distance1" value="">
     </p>
     <p>
-        Time (s):
-        <input type="text" id="time" value="4.3">
+        Time 1(s):
+        <input type="text" id="time1" value="">
     </p>
     <p>
-        Speed (m/s):
-        <input type="text" id="speed" value="" readonly="true">
+        Speed 1 (m/s):
+        <input type="text" id="speed1" value="" readonly="true">
     </p>
-      <input type="button" value="Speed (m/s):" onclick="speed()">
-
+      <input type="button" value="Speed 1(m/s):" onclick="speed1()">
+</fieldset>
+<fieldset>
+        Distance 2 (m):
+        <input type="text" id="distance2" value="">
+    </p>
+    <p>
+        Time 2(s):
+        <input type="text" id="time2" value="">
+    </p>
+    <p>
+        Speed 2 (m/s):
+        <input type="text" id="speed2" value="" readonly="true">
+    </p>
+      <input type="button" value="Speed 2(m/s):" onclick="speed2()">
+</fieldset>
+<fieldset>
+        Speed mean(m/s):
+        <input type="text" id="speedmean" value="" readonly="true">
+    </p>
+      <input type="button" value="Speed mean (m/s):" onclick="speedmean()">
 </fieldset>
 </ul>
 <footer>By: Francesc Perez</footer>
 </div>
-  </body></html>
+  </body>  </html>
